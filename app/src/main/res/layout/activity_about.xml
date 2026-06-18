@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#08181B">
+
+    <!-- CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aionia"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aionia (Αἰωνία) means 'Eternal Life' in Greek."
+                android:textSize="15sp"
+                android:textColor="#96C0B0"
+                android:layout_marginBottom="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This app estimates the environmental impact of AI usage including water consumption, CO₂ emissions, and electricity usage based on prompts, word count, and request volume."
+                android:textSize="16sp"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌍 MAP SYSTEM"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The map visualizes global AI server locations. Each marker represents estimated AI compute regions used by models like GPT, Claude, and Gemini."
+                android:textSize="15sp"
+                android:textColor="#96C0B0"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🤖 SUPPORTED MODELS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ChatGPT, Claude, Gemini, GPT-5.2, GPT-5.3, GPT-5.4, Haiku 4.6, Opus 4.6, Sonnet 4.6, Gemini 2.5 Flash, Gemini 2.5 Pro, Gemini 3.1 Pro"
+                android:textSize="15sp"
+                android:textColor="#96C0B0"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎨 DESIGN LANGUAGE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dark greens represent nature and sustainability, deep dark tones represent AI infrastructure, and golden tones highlight key insights."
+                android:textSize="15sp"
+                android:textColor="#96C0B0"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note: All calculations are approximate and intended for educational purposes."
+                android:textSize="14sp"
+                android:textColor="#96C0B0"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="⬅ Back"
+                android:textColor="#08181B"
+                android:backgroundTint="#EEE8B2"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 🔥 Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEE8B2"
+        app:menu="@menu/bottom_menu"
+
+        app:itemIconTint="@color/bottom_nav_colors"
+        app:itemTextColor="@color/bottom_nav_colors"
+
+        app:itemRippleColor="@android:color/transparent"
+        app:itemBackground="@android:color/transparent"/>
+</LinearLayout>

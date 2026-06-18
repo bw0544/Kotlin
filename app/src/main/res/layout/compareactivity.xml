@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#081B1B">
+
+    <!-- 🔥 CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📊 AI Comparison"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="18dp"/>
+
+            <!-- AI A -->
+            <Spinner
+                android:id="@+id/spinnerA"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#0F2A2A"
+                android:popupBackground="#E9C46A"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"/>
+
+            <!-- AI B -->
+            <Spinner
+                android:id="@+id/spinnerB"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#0F2A2A"
+                android:popupBackground="#E9C46A"
+                android:padding="12dp"
+                android:layout_marginTop="12dp"/>
+
+            <!-- Metric -->
+            <Spinner
+                android:id="@+id/spinnerMetric"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#0F2A2A"
+                android:popupBackground="#E9C46A"
+                android:padding="12dp"
+                android:layout_marginTop="12dp"/>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/btnCompare"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="⚡ Compare"
+                android:textColor="#081B1B"
+                android:backgroundTint="#E9C46A"
+                android:layout_marginTop="18dp"/>
+
+            <!-- Chart -->
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                android:layout_marginTop="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 🔥 Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEE8B2"
+
+        app:menu="@menu/bottom_menu"
+        app:itemIconTint="#5A8F76"
+        app:itemTextColor="#5A8F76"
+        app:itemActiveIndicatorStyle="@null"/>
+
+</LinearLayout>

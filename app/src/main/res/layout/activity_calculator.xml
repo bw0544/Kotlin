@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#081B1B">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AI Calculator"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#EEE8B2"
+                android:layout_marginBottom="20dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerAI"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="#0F2A2A"
+                android:popupBackground="#E9C46A"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/inputText"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Enter your text..."
+                android:textColor="#EEE8B2"
+                android:textColorHint="#88EEE8B2"
+                android:background="#0F2A2A"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="16dp"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/inputRequests"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="Number of requests"
+                android:textColor="#EEE8B2"
+                android:textColorHint="#88EEE8B2"
+                android:background="#0F2A2A"
+                android:inputType="number"
+                android:layout_marginTop="16dp"
+                android:padding="12dp"/>
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="⚡ Calculate"
+                android:textColor="#081B1B"
+                android:backgroundTint="#E9C46A"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="⬅ Back"
+                android:textColor="#EEE8B2"
+                android:backgroundTint="#203837"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🌍 Result will appear here"
+                android:textSize="16sp"
+                android:textColor="#EEE8B2"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="6dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEE8B2"
+        app:menu="@menu/bottom_menu"
+        app:itemIconTint="#5A8F76"
+        app:itemTextColor="#5A8F76"
+        app:itemActiveIndicatorStyle="@null"/>
+
+</LinearLayout>

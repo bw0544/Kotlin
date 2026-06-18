@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_map"
+        android:title="Map"/>
+
+    <item
+        android:id="@+id/nav_calc"
+        android:icon="@drawable/ic_calc"
+        android:title="Calc"/>
+
+    <item
+        android:id="@+id/nav_compare"
+        android:icon="@drawable/ic_compare"
+        android:title="Compare"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_info"
+        android:title="About"/>
+
+</menu>
