@@ -16,22 +16,18 @@ Aionia (Αἰωνία) means "Eternal Life" in Greek. Dark greens represent natu
 ## Screenshots
 
 ![Alt Text](screenshot/1.png)
+
 ![Alt Text](screenshot/2.png)
+
 ![Alt Text](screenshot/3.png)
+
 ![Alt Text](screenshot/4.png)
+
 ![Alt Text](screenshot/5.png)
+
 ![Alt Text](screenshot/6.png)
+
 ![Alt Text](screenshot/7.png)
-![Alt Text](screenshot/8.png)
-![Alt Text](screenshot/9.png)
-![Alt Text](screenshot/10.png)
-![Alt Text](screenshot/11.png)
-![Alt Text](screenshot/12.png)
-![Alt Text](screenshot/13.png)
-![Alt Text](screenshot/14.png)
-![Alt Text](screenshot/15.png)
-![Alt Text](screenshot/16.png)
-![Alt Text](screenshot/17.png)
 
 
 ## Demo
