@@ -15,7 +15,24 @@ https://upm365.sharepoint.com/sites/MobileAppDevelopmentSharepoint$0
 Aionia (Αἰωνία) means "Eternal Life" in Greek. Dark greens represent nature and sustainability, deep dark tones represent AI infrastructure, and golden tones highlight key insights. This app estimates the environmental impact of AI usage including water consumption, carbon emissions, and electricity usage based on prompts, word count, and request volume. It also lets you see where the different data centers of each AI company are around the world and it lets you compare different each model and their respective usage. The supported chatbots include ChatGPT (GPT-5.2, GPT-5.3, GPT-5.4), Claude (Haiku 4.6, Opus 4.6, Sonnet 4.6) and Gemini (Gemini 2.5 Flash, Gemini 2.5 Pro, Gemini 3.1 Pro)
 ## Screenshots
 
-https://github.com/bw0544/Mobile-App-Development/blob/92b39f40bb15e8fe83c7e5cfc005cef6ab0e99cd/aioniascreen%20shots.zip
+![Alt Text](screenshot/1.png)
+![Alt Text](screenshot/2.png)
+![Alt Text](screenshot/3.png)
+![Alt Text](screenshot/4.png)
+![Alt Text](screenshot/5.png)
+![Alt Text](screenshot/6.png)
+![Alt Text](screenshot/7.png)
+![Alt Text](screenshot/8.png)
+![Alt Text](screenshot/9.png)
+![Alt Text](screenshot/10.png)
+![Alt Text](screenshot/11.png)
+![Alt Text](screenshot/12.png)
+![Alt Text](screenshot/13.png)
+![Alt Text](screenshot/14.png)
+![Alt Text](screenshot/15.png)
+![Alt Text](screenshot/16.png)
+![Alt Text](screenshot/17.png)
+
 
 ## Demo
 
